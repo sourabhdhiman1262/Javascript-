@@ -31,9 +31,35 @@ let myObject = {
     age:23,
 }
 
-function(){};
+// function(){};
 // or
 // variable m fuction
 const myFunction = function(){
     console.log("hello");
 }
+
+// ==================================================
+
+// stack(store primitive type)  ,  Heap(store Non-primitive)
+
+// Example(primitive)
+
+let person1 = "sourabh"
+
+let person2 = person1
+
+console.log(person1);
+console.log(person2);
+
+// Example(Non-primitive)
+
+let user1 = {
+    email:"ajsidbcija@.com",
+    age: 21,
+}
+
+let user2 = user1
+user2.email= "my1212@gmail.com"
+
+console.log(user1);
+console.log(user2);
